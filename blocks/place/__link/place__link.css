@@ -1,0 +1,30 @@
+.place__link {
+    margin-top: 12px;
+    max-width: 456px;
+    max-height: 22px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFF;
+    
+}
+
+.place__link:hover {
+    color: #E5E5E5;
+    opacity: 0.8;
+}
+
+@media (max-width: 1023px) {
+    .place__link {
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__link {
+        max-width: 288px;
+    }
+}

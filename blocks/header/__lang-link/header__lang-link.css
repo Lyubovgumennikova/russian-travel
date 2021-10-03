@@ -1,0 +1,31 @@
+.header__lang-link {
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+    margin-left: 18px;
+    color: #FFFFFF;
+    background: #2A2C2F;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    line-height: 0;
+}
+
+.header__lang-link:first-of-type {
+    margin-left: 0;
+}
+
+.header__lang-link:focus {
+    width: 30px;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 320px) {
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+    }
+    .header__lang-link:focus {
+        width: 22px;
+    }
+}
