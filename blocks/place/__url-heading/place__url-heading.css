@@ -10,6 +10,7 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
