@@ -14,6 +14,12 @@
 
 @media (max-width: 1023px) {
     .header {
-        min-width: 100%;
+        min-width: calc(100% - 48px);
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        min-width: calc(100% - 32px);
+        padding-top: 16px;
     }
 }
